@@ -4,15 +4,44 @@ p{
     font-size: 14px;
 }
 
-.left_sentence{
-    float: left;
+body{
+    text-align:center;  
+    width: 1030px; 
+    margin: 0 auto;
+}
+ul li{
+    list-style: none;
 }
 
-.right_pic{
-    float: right;
+.left_sentence{
+    float: left;
+    background-color: springgreen;
+    width: 50%;
 }
+
+.right_sentence{
+    float: right;
+    background-color: aqua;
+    width: 50%;
+}
+
+/* .section:after{
+    clear: both;
+} */
+
+
 
 .clearfix{
     clear: both;
 }
 
+/*
+<div class="left_sentence">
+</div>
+
+<div class="right_sentence">
+</div>
+
+<div class="clearfix"></div>
+
+*/
