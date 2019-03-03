@@ -9,39 +9,117 @@ body{
     width: 1030px; 
     margin: 0 auto;
 }
+
 ul li{
     list-style: none;
 }
-
-.left_sentence{
-    float: left;
-    background-color: springgreen;
-    width: 50%;
-}
-
-.right_sentence{
-    float: right;
-    background-color: aqua;
-    width: 50%;
-}
-
-/* .section:after{
-    clear: both;
-} */
-
 
 
 .clearfix{
     clear: both;
 }
 
-/*
-<div class="left_sentence">
-</div>
+.left__float{
+    float: left;
+}
+.right_float{
+    float: right;
+}
 
-<div class="right_sentence">
-</div>
+.left_sentence{
+    float: left;
+    width: 50%;
+    margin-top: 70px;
+}
+.right_sentence{
+    float: right;
+    width: 50%;
+    margin-top: 70px;
+}
+/* 教育方針 */
+.main_contents{
+    border-top: solid 1px;
+    padding: 0;
+}
+.main_thema{
+    text-align: left;
+    font-size: 28px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    border-bottom: solid 2px;
+    width: 280px;
+}
+.main_thema__p{
+    text-align: left;
+    font-size: 26px;
+    border-right: solid 1px;
+    float: left;
+    padding: 20px 0;
+    padding-right: 20px;
+    margin: 10px 0;
+}
+.main_thema__description{
+    text-align: left;
+    font-size: 22px;
+    float: left;
+    padding: 0;
+    margin: 30px 10px;
+}
 
-<div class="clearfix"></div>
+/* n_standards */
+.n_standards{
+    padding: 30px 40px;
+    background-color: #ddd;
+    border: solid 1px;
+    width: 620px;
+    margin: 80px auto;
+    display: flex;
+}
+.n_standards__p{
+    text-align: left;
+    float: left;
+    letter-spacing: 0.06em;
+    padding: 0px;
+    padding-left: 16px;
+}
+.n_standards__thema{
+    text-align: left;
+    font-size: 20px;
+    padding: 10px 0;
+    margin: 0;
+}
+.n_standards__text{
+    text-align: justify;
+    font-size: 16px;
+    padding: 10px 0;
+    margin: 0;
+    line-height: 1.7;
+}
+.n_standards__readmore{
+    text-align: left;
+    font-size: 18px;
+    padding: 10px 0;
+    margin: 0;
+}
 
-*/
+.sub_thema{
+    font-size: 28px;
+    text-align: left;
+    margin: 10px 0;
+}
+/* N高の魅力 */
+.n_charm__text{
+    text-align: justify;
+    font-size: 16px;
+    margin-right: 45px;
+    margin-top: 40px;
+    padding-top: 10px;
+    line-height: 1.7;
+    border-top: solid 1px;
+}
+.description__text{
+    font-size: 13px;
+    text-align: left;
+    margin: 0;
+    padding-top: 5px;
+}
