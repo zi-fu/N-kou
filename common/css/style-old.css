@@ -116,9 +116,15 @@ a:hover {
 
 .globalNavi ul li:last-child{
     margin-bottom:10px; 
+    background-image: url("/images/n-33.png");
+    background-position: 0 8px;
+    background-repeat: no-repeat;
+    list-style-type: none;
 }
 .globalNavi ul li:last-child::before{
-    content: url("../../images/n-33.png");
+   
+    /* content: url("../../images/n-33.png"); */
+   
     margin: 0;
     padding: 0;
 

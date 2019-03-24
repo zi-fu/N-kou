@@ -8,8 +8,8 @@ body{
     text-align:center;
     margin: 0 auto;
     width: 100%;
-
 }
+
 h5{
     font-size: 32px;
     margin-bottom: 10px;
@@ -27,6 +27,17 @@ ul li{
     list-style: none;
 }
 
+/* リンク */
+a{
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+
 .clearfix{
     clear: both;
 }
@@ -34,7 +45,7 @@ ul li{
 .left__float{
     float: left;
 }
-.right_float{
+.right__float{
     float: right;
 }
 
@@ -66,10 +77,41 @@ ul li{
 .globalNavi_head_top{
     background-color: #F6F6F6;
 }
-
+/* 横幅設定 */
 .globalNavi_head_width{
     width: 1200px;
     margin: 0 auto;
+}
+.text_width{
+    width: 1050px;
+    margin: 0 auto; 
+}
+
+
+.globalNavi__01{
+    padding: 0;
+    margin: 0;
+}
+.globalNavi__01 ul{
+    padding: 0;
+    margin: 0;
+}
+
+.globalNavi__01 ul li{
+    border-left: solid 1px #676767;
+    padding: 0px 30px;
+    margin: 0;
+    float: left;
+    list-style-type: none;
+}
+
+.globalNavi__01 ul li:last-child{
+    border-right: solid 1px #676767;
+}
+.globalNavi__01 p{
+    font-size: 12px;
+    margin: 0;
+    color: #676767;
 }
 
 .globalNavi_head{
@@ -81,7 +123,6 @@ ul li{
 }
 
 .globalNavi ul{
-    padding-top: 10px;
     margin: 0 auto;
     font-size: 13px;
     color: #676767;
@@ -94,7 +135,7 @@ ul li{
 .globalNavi ul li{
     float: left;
     border-right: solid 1px rgb(3, 3, 3);
-    padding: 0 14px;
+    padding: 0px 14px;
     margin: 0;
 }
 .globalNavi ul li.list__right_solid{
@@ -108,13 +149,16 @@ ul li{
 }
 
 .globalNavi ul li:last-child{
-    margin-bottom:10px; 
+    /* margin-bottom:20px; 
+    background-image: url("../../images/n-33.png");
+    padding-left: 35px;
+    background-position: 0;
+    background-repeat: no-repeat;
+    list-style-type: none; */
 }
 .globalNavi ul li:last-child::before{
-    content: url("../../images/n-33.png");
-    margin: 0;
-    padding: 0;
-
+    content: url("../../images/n-33.png"); 
+    float: left;
 }
 
 
@@ -128,6 +172,58 @@ ul li{
     float: left;
     border-right: solid 1px rgb(3, 3, 3);
     padding: 0 14px;
+}
+
+.n_image{
+    padding: 30px 0;
+    float: left;
+}    
+
+
+.head_box{
+    margin-top: 30px;
+    float: right;
+}
+
+
+.box__1{
+    color: #000066;
+    border: solid 1px #000066;
+    margin: 5px;
+    padding: 0 5px;
+    margin-top: 20px;
+    width: 150px;
+    float: left;
+}
+.box__1 a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #000066;   
+}
+.box__1 p::after{
+    content: ">";
+    color: #000066;
+    float: right;
+}
+.box__1:hover{
+    text-decoration: none;
+    color: #ffffff;   
+}
+/* .box__1 a:hover{
+    text-decoration: none;
+    color: #ffffff;   
+}
+.box__1 p:hover::after{
+    text-decoration: none;
+    color: #ffffff;   
+
+} */
+
+
+
+.sns__box{
+    margin: 10px;
+    margin-left: 30px;
 }
 
 /* 教育方針 */
