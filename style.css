@@ -188,12 +188,13 @@ a:hover {
     margin-left: 50px;
 }
 .globalNavi_n_about ul li{
-
     float: left;
     /* border-right: solid 1px rgb(3, 3, 3); */
     padding: 8px 16px;
 }
-
+.globalNavi_n_about ul li::before{
+    background-image: url("../../images/n-35.png")
+}
 
 .globalNavi_botom ul li{
     float: left;
