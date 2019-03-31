@@ -35,9 +35,6 @@ a:hover {
     text-decoration: underline;
 }
 
-
-
-
 .clearfix{
     clear: both;
 }
@@ -83,15 +80,28 @@ a:hover {
     margin: 0 auto;
 }
 .text_width{
-    width: 1050px;
+    width: 1030px;
     margin: 0 auto; 
 }
-
+.n_about_width{
+    width: 1200px;
+    padding-left:80px;
+    margin: 0 auto; 
+}
 
 .globalNavi__01{
     padding: 0;
     margin: 0;
 }
+.globalNavi__01 a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.globalNavi__01 a:hover{
+    color: #181836;
+}
+
 .globalNavi__01 ul{
     padding: 0;
     margin: 0;
@@ -104,7 +114,6 @@ a:hover {
     float: left;
     list-style-type: none;
 }
-
 .globalNavi__01 ul li:last-child{
     border-right: solid 1px #676767;
 }
@@ -112,6 +121,12 @@ a:hover {
     font-size: 12px;
     margin: 0;
     color: #676767;
+}
+.globalNavi__01 p:hover{
+    color:#000066;
+}
+.globalNavi__01 p.font__color{
+    color: #181836;
 }
 
 .globalNavi_head{
@@ -148,24 +163,48 @@ a:hover {
     padding: 0;
 }
 
-.globalNavi ul li:last-child{
-    /* margin-bottom:20px; 
-    background-image: url("../../images/n-33.png");
-    padding-left: 35px;
-    background-position: 0;
-    background-repeat: no-repeat;
-    list-style-type: none; */
-}
+
 .globalNavi ul li:last-child::before{
     content: url("../../images/n-33.png"); 
     float: left;
 }
+.triangle1{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid #181836;
+    margin-left: 270px;
+    margin-top: 20px;
+  }
 
-
+.globalNavi_n_about {
+    background-color: #181836;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    margin: 0px;
+    font-size: 15px;
+}
+.globalNavi_n_about a{
+    color: #ffffff;
+    padding: 5px;
+    margin: 0;
+}
+.globalNavi_n_about a:hover{
+    text-decoration: none;
+    color: #181836;
+    background-color: #ffffff
+}
 .globalNavi_n_about ul li{
     float: left;
-    border-right: solid 1px rgb(3, 3, 3);
-    padding: 0 14px;
+    padding: 8px 5px;
+}
+.globalNavi_n_about ul li::before{
+    padding-right: 14px;
+    content: url("../../images/n-35.png")
+}
+.globalNavi_n_about ul li:first-child::before{
+    content: "";
 }
 
 .globalNavi_botom ul li{
@@ -178,7 +217,53 @@ a:hover {
     padding: 30px 0;
     float: left;
 }    
+.resizaimage {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.resizaimage img{
+    vertical-align: bottom;
+}
 
+.n__image{
+    width: 100%;    
+}
+.visualtext{
+    position: absolute;
+    left: 480px;
+    bottom: 180px;
+    color: #ffffff;
+    width:500px;
+    padding: 15px 25px;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+}
+.visualtext h1{
+    font-size: 50px;
+    line-height: 1.231;
+    letter-spacing: 10px;
+    margin: 0;
+    font-weight: lighter;
+
+}
+.visualtext h1::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 90px;/*線の上下位置*/
+    display: inline-block;
+    width: 170px;/*線の長さ*/
+    height: 1px;/*線の太さ*/
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);/*位置調整*/
+    background-color: #ffffff;/*線の色*/
+}
+.visualtext p{
+    margin: 40px;
+}
 
 .head_box{
     margin-top: 30px;
@@ -189,18 +274,11 @@ a:hover {
     margin-top: 20px;
     padding: 0;
 }
-/* .box__1 ul{
-    margin: 0;
-    padding: 0;
-} */
+
 .box__1 ul li{
     float: left;
 }
-/* .box__1 ul li:hover{
-    text-decoration: none;
-    color: #ffffff;
-    background-color:  #000066;  
-} */
+
 .box__1 a{
     color: #000066;
     background-color: #ffffff;
@@ -210,34 +288,13 @@ a:hover {
     padding-top: 10px;
     padding-bottom: 6px;
     margin-right: 5px;
-    /* text-decoration: none; */
     color: #000066;
     font-size: 16px;
 }
-/* .box__1 a::after{
-    content: ">";
-    color: #000066;
-    float: right;
-} */
 .box__1 a:hover{
     text-decoration: none;
     color: #ffffff;
     background-color:  #000066;  
-}
-
-/* .box__1:hover{
-    text-decoration: none;
-    color: #ffffff;   
-    background-color: #000066;
-} */
-
-
-
-
-
-.sns__box{
-    margin: 10px;
-    margin-left: 30px;
 }
 
 /* 教育方針 */
