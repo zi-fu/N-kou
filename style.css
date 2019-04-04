@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn:700');
+
+p{
+    font-size: 14px;
+}
+
+body{
+    text-align:center;
+    margin: 0 auto;
+    width: 100%;
+}
+h2{
+    font-size: 35px;
+    font-weight: normal;
+    letter-spacing: 6px;
+
+}
+h3{
+    font-size: 24px;
+    font-weight: normal;
+    margin: 10px;
+}
+
+h5{
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+h6{
+    font-size: 22px;
+    font-weight: normal;
+    margin: 0;
+    text-align: left;
+    padding: 6px 0px;
+}
+
+ul li{
+    list-style: none;
+}
+
+/* リンク */
+a{
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.left__float{
+    float: left;
+}
+.right__float{
+    float: right;
+}
+
+.left_sentence{
+    float: left;
+    width: 50%;
+    margin-top: 70px;
+}
+.right_sentence{
+    float: right;
+    width: 50%;
+    margin-top: 70px;
+}
+.right_sentence_image{
+    float: right;
+    margin-top: 70px;
+}
+
+.sub_left_sentence{
+    float: left;
+    width: 27%;
+    margin-top: 70px;
+}
+.sub_right_sentence{
+    float: right;
+    width: 27%;
+    margin-top: 70px;
+}
+.globalNavi_head_top{
+    background-color: #F6F6F6;
+}
+/* 横幅設定 */
+.globalNavi_head_width{
+    width: 1200px;
+    margin: 0 auto;
+}
+.text_width{
+    width: 1030px;
+    margin: 0 auto; 
+}
+.n_about_width{
+    width: 1200px;
+    padding-left:80px;
+    margin: 0 auto; 
+}
+
+.globalNavi__01{
+    padding: 0;
+    margin: 0;
+}
+.globalNavi__01 a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.globalNavi__01 a:hover{
+    color: #181836;
+}
+
+.globalNavi__01 ul{
+    padding: 0;
+    margin: 0;
+}
+
+.globalNavi__01 ul li{
+    border-left: solid 1px #676767;
+    padding: 0px 30px;
+    margin: 0;
+    float: left;
+    list-style-type: none;
+}
+.globalNavi__01 ul li:last-child{
+    border-right: solid 1px #676767;
+}
+.globalNavi__01 p{
+    font-size: 12px;
+    margin: 0;
+    color: #676767;
+}
+.globalNavi__01 p:hover{
+    color:#000066;
+}
+.globalNavi__01 p.font__color{
+    color: #181836;
+}
+
+.globalNavi_head{
+    float: left;
+    padding: 10px 80px;
+    padding-right: 80px;
+    margin: 0 auto;
+    font-size: 13px;
+}
+
+.globalNavi ul{
+    margin: 0 auto;
+    font-size: 13px;
+    color: #676767;
+}
+.globalNavi ul::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.globalNavi ul li{
+    float: left;
+    border-right: solid 1px rgb(3, 3, 3);
+    padding: 0px 14px;
+    margin: 0;
+}
+.globalNavi ul li.list__right_solid{
+    border-right: none;
+}
+
+.globalNavi ul li.list__right_login{
+    border-right: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.globalNavi ul li:last-child::before{
+    content: url("../../images/n-33.png"); 
+    float: left;
+}
+.triangle1{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid #181836;
+    margin-left: 270px;
+    margin-top: 20px;
+  }
+
+.globalNavi_n_about {
+    background-color: #181836;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    margin: 0px;
+    font-size: 15px;
+}
+.globalNavi_n_about a{
+    color: #ffffff;
+    padding: 5px;
+    margin: 0;
+}
+.globalNavi_n_about a:hover{
+    text-decoration: none;
+    color: #181836;
+    background-color: #ffffff
+}
+.globalNavi_n_about ul li{
+    float: left;
+    padding: 8px 5px;
+}
+.globalNavi_n_about ul li::before{
+    padding-right: 14px;
+    content: url("../../images/n-35.png")
+}
+.globalNavi_n_about ul li:first-child::before{
+    content: "";
+}
+
+.globalNavi_botom ul li{
+    float: left;
+    border-right: solid 1px rgb(3, 3, 3);
+    padding: 0 14px;
+}
+
+.n_image{
+    padding: 30px 0;
+    float: left;
+}    
+.resizaimage {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.resizaimage img{
+    vertical-align: bottom;
+}
+
+.n__image{
+    width: 100%;    
+}
+
+
+
+
+.visualtext{
+    position: absolute;
+    left: 480px;
+    bottom: 180px;
+    color: #ffffff;
+    width:500px;
+    padding: 15px 25px;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+}
+.visualtext h1{
+    font-size: 50px;
+    line-height: 1.231;
+    letter-spacing: 10px;
+    margin: 0;
+    font-weight: lighter;
+
+}
+.visualtext h1::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 90px;/*線の上下位置*/
+    display: inline-block;
+    width: 170px;/*線の長さ*/
+    height: 1px;/*線の太さ*/
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);/*位置調整*/
+    background-color: #ffffff;/*線の色*/
+}
+.visualtext p{
+    margin: 40px;
+}
+
+
+.pankuzu{
+    border-bottom: solid 1px #676767;
+    width: 100%;
+    padding-bottom:10px;
+    padding-top: 2px;
+    text-align: left;
+}
+.pankuzu p{
+    padding-left: 200px; 
+
+}
+.main_msg{
+    margin: 100px;
+}
+.sub__main_msg p{
+    font-size: 17px;
+
+}
+.head_box{
+    margin-top: 30px;
+    float: right;
+}
+
+.box__1{
+    margin-top: 20px;
+    padding: 0;
+}
+
+.box__1 ul li{
+    float: left;
+}
+
+.box__1 a{
+    color: #000066;
+    background-color: #ffffff;
+    width: 150px;
+    border: solid 1px #000066;
+    padding: 0 10px;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    margin-right: 5px;
+    color: #000066;
+    font-size: 16px;
+}
+.box__1 a:hover{
+    text-decoration: none;
+    color: #ffffff;
+    background-color:  #000066;  
+}
+
+/* 教育方針 */
+.main_contents{
+    border-top: solid 1px;
+    padding: 0;
+}
+.main_thema{
+    text-align: left;
+    font-size: 28px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    border-bottom: solid 2px;
+    width: 280px;
+}
+.main_thema__p{
+    text-align: left;
+    font-size: 26px;
+    border-right: solid 1px;
+    float: left;
+    padding: 20px 0;
+    padding-right: 20px;
+    margin: 10px 0;
+}
+.main_thema__description{
+    text-align: left;
+    font-size: 22px;
+    float: left;
+    padding: 0;
+    margin: 30px 10px;
+}
+
+/* n_standards */
+.n_standards{
+    padding: 30px 40px;
+    background-color: #ddd;
+    border: solid 1px;
+    width: 620px;
+    margin: 80px auto;
+    display: flex;
+}
+.n_standards__p{
+    text-align: left;
+    float: left;
+    letter-spacing: 0.06em;
+    padding: 0px;
+    padding-left: 16px;
+}
+.n_standards__thema{
+    text-align: left;
+    font-size: 20px;
+    padding: 10px 0;
+    margin: 0;
+}
+.n_standards__text{
+    text-align: justify;
+    font-size: 16px;
+    padding: 10px 0;
+    margin: 0;
+    line-height: 1.7;
+}
+.n_standards__readmore{
+    text-align: left;
+    font-size: 18px;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.sub_thema{
+    font-size: 28px;
+    text-align: left;
+    margin: 10px 0;
+}
+/* N高の魅力 */
+.n_charm__text{
+    text-align: justify;
+    font-size: 16px;
+    margin-right: 45px;
+    margin-top: 40px;
+    padding-top: 10px;
+    line-height: 1.7;
+    border-top: solid 1px;
+}
+.description__text{
+    font-size: 13px;
+    text-align: left;
+    margin: 0;
+    padding-top: 5px;
+}
+
+/* 高卒資格取得のためのBasic Program */
+.main_contents_basic{
+    background-color: #F6F6F6;
+    padding-top: 30px;
+    margin-top: 110px;
+}   
+.basic_text{
+    font-size: 16px;
+    margin: 0;
+    padding-top: 10px;
+}
+.basic_program{
+    font-size: 11px;
+    color: aliceblue;
+    background-color: black;
+    float: left;
+    padding: 8px 10px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.n__text{
+    text-align: justify;
+    font-size: 16px;
+    margin-top: 20px;
+    padding-top: 10px;
+    line-height: 1.7;
+}
+
+.description__text_mini{
+    font-size: 11px;
+    text-align: justify;
+    margin: 0;
+    padding-top: 5px;
+    line-height: 1.7;
+}
+.description__text_mini_scring{
+    font-size: 13px;
+    text-align: justify;
+    margin: 0;
+    padding-top: 5px;
+    line-height: 1.7;
+    letter-spacing: 0.5px;
+}
+
+/* N高生からのメッセージ */
+.all_msg{
+    background-color: #F6F6F6;
+    margin: 40px 0;
+    padding: 40px 0;
+    width: 1500px;
+
+}
+.msg_box{
+    padding: 20px;
+    margin: 20px 40px;
+    border: solid 1px #000000;
+    background-color: #ffffff;
+    float: left;
+    width: 40%;
+    text-align: left;
+}
+.msg_box__main{
+    font-size: 30px;
+}
