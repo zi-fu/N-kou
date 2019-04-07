@@ -462,3 +462,65 @@ a:hover {
     line-height: 1.7;
     letter-spacing: 0.5px;
 }
+
+/* N高生からのメッセージ */
+.all_msg{
+    background-color: #F6F6F6;
+    margin: 40px 0;
+    padding: 40px 0;  
+}
+.basic_width{
+    /* width: 1030px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.msg_box{
+    width: 29%;
+    text-align: left;
+    padding: 10px 28px;
+    margin: 20px 40px; 
+    border: solid 1px #000000;
+    background-color: #ffffff;
+    line-height: 150%;
+}
+.msg_box::after{
+    content: ">";
+    display: flex;
+}
+.msg_box p{
+    padding: 5px 0 0;
+    margin: 0; 
+    line-height: 150%;
+}
+
+.msg_box__main{
+    font-size: 26px;
+    padding: 0;
+    margin: 0;
+}
+
+.youtuve{
+   float: left;
+   margin: 25px 5px 150px 0px;
+}
+.youtuve p{
+    margin: 0;
+    padding: 0;
+ }
+
+ .detail_nav{
+    padding: 20px;
+    background-image: url("../../images/n-36.png")
+ }
+ .detail_nav p{
+   color: #ffffff;
+   font-size: 19px;
+ }
+ .detail_width{
+     width: 900px;
+ }
