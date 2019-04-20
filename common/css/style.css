@@ -94,6 +94,11 @@ a:hover {
 .globalNavi_head_top{
     background-color: #F6F6F6;
 }
+.globalNavi_head{
+    float: left;
+    padding: 10px 0;
+    font-size: 13px;
+}
 .globalNavi{
     float: right;
     padding: 0;
@@ -104,10 +109,10 @@ a:hover {
     font-size: 13px;
 }
 .globalNavi ul{
-    font-size: 13px;
+    font-size: 12px;
     color: #676767;
     padding: 0;
-    margin: 13px 0;
+    margin: 11px 0;
 }
 .globalNavi ul::after{
     display: block;
@@ -115,7 +120,7 @@ a:hover {
 .globalNavi ul li{
     float: right;
     border-right: solid 1px #676767;
-    padding: 0px 14px;
+    padding: 0px 12px;
     margin: 0;
 }
 .globalNavi ul li.list__right_solid{
@@ -125,7 +130,7 @@ a:hover {
     float: right;
     background-color: #d9d9d9;
     font-size: 13px;
-    padding: 8px 8px 5px 5px;
+    padding: 5px 8px 5px 5px;
 }
 .globalNavi_logo a{
     color: #000066;
@@ -148,59 +153,8 @@ a:hover {
 .globalNavi__01{
     padding: 0;
     margin: 0;
+    color: #000000;
 }
-/* .globalNavi__01 p{
-    font-size: 12px;
-    margin: 0;
-    color: #676767;
-} */
-.globalNavi__01 a.span{
-    color: #676767;
-    font-size: 12px;
-}
-.globalNavi__01 a{
-    /* text-decoration: none; */
-    color: #181836;
-}
-/* .globalNavi__01 a:hover{
-    color:red;
-} */
-.globalNavi__01 a .globalNavi_ruby:hover{
-    color:red;
-}
-/* .globalNavi__01 a.globalNavi_ruby:hover{
-    color:red;
-} */
-
-/* .globalNavi__01 li a:hover{
-  
-    color:red;
-}
-.globalNavi_ruby:hover{
-
-    color:red;
-} */
-
-  /* color:#000066; */
-
-
-.globalNavi_ruby{
-    font-size: 12px;
-    margin: 0;
-    padding: 0;
-    line-height: 120%;
-    color: #676767;
-}
-.main_ruby{
-    color:#000066;
-    margin: 0;
-    padding: 0;
-    font-size: 12px;
-}
-
-
-
-
 
 .globalNavi__01 ul{
     padding: 0;
@@ -217,14 +171,27 @@ a:hover {
 .globalNavi__01 ul li:last-child{
     border-right: solid 1px #676767;
 }
-
-
-.globalNavi_head{
-    float: left;
-    padding: 12px 0;
-    font-size: 13px;
+.globalNavi__01 a{
+    text-decoration: none;
+    color: #181836;
+}
+.globalNavi__01 a:hover{
+    color:red;
 }
 
+.main_ruby{
+    color:#000066;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+.globalNavi_ruby{
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    line-height: 120%;
+    color: #676767;
+}
 .triangle1{
     width: 0;
     height: 0;
@@ -232,7 +199,7 @@ a:hover {
     border-right: 5px solid transparent;
     border-bottom: 10px solid #181836;
     margin-left: 270px;
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
 .globalNavi_n_about {
@@ -338,14 +305,19 @@ a:hover {
 .pankuzu a{
     color: #36538d;
 }
-
-
 .main_msg{
     margin: 100px;
+ 
+}
+.sub__main_msg {
+    margin: 0 195px;
 }
 .sub__main_msg p{
-    font-size: 17px;
-
+    font-size: 16px;
+    line-height: 1.7;
+    letter-spacing: 0.6px;
+    text-align: left;
+    margin: 0;
 }
 .header_right_box{
     width: 380px;
@@ -427,12 +399,30 @@ a:hover {
 /* n_standards */
 .n_standards{
     padding: 30px 40px;
-    background-color: #ddd;
-    border: solid 1px;
+    background-color: #f7f7f7;
+    border: solid 1px #ddd;;
     width: 620px;
     margin: 80px auto;
     display: flex;
+    position: relative;
+
 }
+.n_standards a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-indent:-999px;
+}
+.n_standards img{
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.n_standards:hover img{
+    opacity: .7;
+} 
 .n_standards__p{
     text-align: left;
     float: left;
@@ -440,6 +430,7 @@ a:hover {
     padding: 0px;
     padding-left: 16px;
 }
+
 .n_standards__thema{
     text-align: left;
     font-size: 20px;
@@ -459,7 +450,6 @@ a:hover {
     padding: 10px 0;
     margin: 0;
 }
-
 .sub_thema{
     font-size: 28px;
     text-align: left;
